@@ -1,0 +1,8 @@
+[functions]
+verify_jwt = false
+
+[functions.tochka-payment]
+verify_jwt = false
+
+[functions.tochka-webhook]
+verify_jwt = false
