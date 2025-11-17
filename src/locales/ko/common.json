@@ -1,0 +1,174 @@
+{
+  "loading": "불러오는 중…",
+  "languageSwitcher": {
+    "label": "언어",
+    "english": "English",
+    "russian": "Русский",
+    "spanish": "Español",
+    "chinese": "中文",
+    "japanese": "日本語",
+    "korean": "한국어"
+  },
+  "buttons": {
+    "tryForFree": "무료로 사용하기",
+    "viewExamples": "예시 보기",
+    "chat": "채팅하기",
+    "showSuccessToast": "🟢 성공 메시지",
+    "showErrorToast": "🔴 오류 메시지",
+    "download": "다운로드",
+    "regenerate": "재생성",
+    "close": "닫기",
+    "cancel": "취소",
+    "signIn": "로그인"
+  },
+  "layout": {
+    "tagline": "몇 초 만에 전문 스테이징",
+    "nav": {
+      "home": "홈",
+      "transform": "변환",
+      "gallery": "갤러리",
+      "pricing": "가격",
+      "api": "API"
+    },
+    "footer": {
+      "description": "부동산 사진을 몇 초 만에 전문가 수준으로 변환하세요.",
+      "product": "제품",
+      "company": "회사",
+      "transform": "사진 변환",
+      "gallery": "갤러리",
+      "pricing": "가격",
+      "api": "API 액세스",
+      "contact": "문의하기",
+      "upgrade": "Pro 업그레이드",
+      "privacy": "개인정보 처리방침",
+      "terms": "서비스 이용약관",
+      "rights": "© {{year}} StageAI. All rights reserved."
+    }
+  },
+  "beforeAfter": {
+    "drag": "비교하려면 슬라이드를 움직이세요",
+    "after": "✨ After (AI 스테이징)",
+    "before": "📸 Before",
+    "swipe": "👆 좌우로 스와이프하여 비교"
+  },
+  "toastTest": {
+    "title": "토스트 테스트",
+    "successTitle": "✅ 성공",
+    "successMessage": "모든 기능이 정상 작동 중입니다!",
+    "errorTitle": "❌ 오류",
+    "errorMessage": "문제가 발생했습니다."
+  },
+  "pricing": {
+    "label": "// 가격",
+    "title": "당신에게 맞는 플랜 선택",
+    "subtitle": "다른 서비스가 주의를 끌 때, 우리는 시간을 절약합니다.",
+    "billing": {
+      "monthly": "월간",
+      "yearly": "연간"
+    },
+    "badge": "인기",
+    "button": "무료 시작 →",
+    "plans": {
+      "monthly": [
+        {
+          "id": "pro_individual",
+          "name": "Pro 개인",
+          "price": "$4.99",
+          "period": "월",
+          "description": "디자이너/에이전트에게 적합",
+          "icon": "crown",
+          "popular": true,
+          "showPeriod": true,
+          "features": [
+            { "text": "월 25회 AI 변환", "highlight": true },
+            { "text": "프리미엄 템플릿" },
+            { "text": "HD 화질" },
+            { "text": "우선 지원" }
+          ]
+        },
+        {
+          "id": "pro_agency",
+          "name": "Pro 에이전시",
+          "price": "$30",
+          "period": "월",
+          "description": "팀/전문가용",
+          "icon": "zap",
+          "popular": false,
+          "showPeriod": true,
+          "features": [
+            { "text": "월 200회 AI 변환", "highlight": true },
+            { "text": "팀 협업 기능" },
+            { "text": "전담 매니저" },
+            { "text": "API & 화이트라벨" }
+          ]
+        },
+        {
+          "id": "pro_ultimate",
+          "name": "Pro 얼티밋",
+          "price": "$120",
+          "period": "월",
+          "description": "대규모 프로젝트용",
+          "icon": "rocket",
+          "popular": false,
+          "showPeriod": true,
+          "features": [
+            { "text": "월 1000회 AI 변환", "highlight": true },
+            { "text": "고급 자동화" },
+            { "text": "신기능 우선 접근" },
+            { "text": "확장된 API 제한" }
+          ]
+        }
+      ],
+      "yearly": [
+        {
+          "id": "pro_individual",
+          "name": "Pro 개인",
+          "price": "$49",
+          "period": "년",
+          "description": "연간 결제 시 20% 절약",
+          "icon": "crown",
+          "popular": true,
+          "showPeriod": true,
+          "features": [
+            { "text": "연 300회 AI 변환", "highlight": true },
+            { "text": "프리미엄 템플릿" },
+            { "text": "HD 화질" },
+            { "text": "우선 지원" }
+          ]
+        },
+        {
+          "id": "pro_agency",
+          "name": "Pro 에이전시",
+          "price": "$299",
+          "period": "년",
+          "description": "바쁜 팀에게 적합",
+          "icon": "zap",
+          "popular": false,
+          "showPeriod": true,
+          "features": [
+            { "text": "연 2400회 AI 변환", "highlight": true },
+            { "text": "팀 협업 기능" },
+            { "text": "전담 매니저" },
+            { "text": "API & 화이트라벨" }
+          ]
+        },
+        {
+          "id": "pro_ultimate",
+          "name": "Pro 얼티밋",
+          "price": "$1300",
+          "period": "년",
+          "description": "대규모 프로젝트용",
+          "icon": "rocket",
+          "popular": false,
+          "showPeriod": true,
+          "features": [
+            { "text": "연 12000회 AI 변환", "highlight": true },
+            { "text": "고급 자동화 도구" },
+            { "text": "신기능 우선 접근" },
+            { "text": "확장된 API 제한" }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "title": "AIホームステージングアプリ | 物件を早く売却・賃貸",
+    "description": "個人売主、Airbnbホスト、DIYホームオーナー向けのAIステージングアプリ。物件写真を瞬時に改善し、より早く売却・賃貸できる魅力的な画像を生成します。",
+    "keywords": "AIホームステージング, バーチャルステージング, 不動産写真改善, 物件AI, リスティング改善, Airbnb写真",
+    "ogTitle": "AIホームステージングアプリ | 物件を早く売却",
+    "ogDescription": "AIで物件写真を変換。片付け、照明改善、家具配置まで数秒で完了。",
+    "ogImage": "https://interiordesignbot.com/interiordesignbot_logo.png"
+  },
+  "hero": {
+    "titlePrefix": "物件を変身させ、",
+    "titleHighlight": "早く売却・節約を実現",
+    "description": "インテリア・エクステリアの写真を数秒でプロ仕様のステージング画像へ変換。工事不要・デザイナー不要。AIがすべて解決します。",
+    "freeTransformations": "2回の無料変換",
+    "noCardRequired": "クレジットカード不要"
+  },
+  "benefits": {
+    "title": "ホームステージングプロアプリ — クリック1つで変換、1週間で売却",
+    "subtitle": "<mark>プロのステージングを手間なく低コストで</mark>",
+    "items": [
+      {
+        "id": "instantGlow",
+        "icon": "zap",
+        "title": "瞬時に美しく",
+        "description": "散らかった部屋も数秒で雑誌クオリティに変換。デザイナー不要。"
+      },
+      {
+        "id": "magicWand",
+        "icon": "wand",
+        "title": "AIマジックワンド",
+        "description": "自動で片付け、照明改善、再デザインをワンクリックで実行。"
+      },
+      {
+        "id": "sellFaster",
+        "icon": "spotlight",
+        "title": "販売スピードUP",
+        "description": "ステージングされた物件は40%早く売れます。"
+      }
+    ]
+  },
+  "priceList": {
+    "title": "料金表",
+    "subtitle": "<mark>InteriorDesignアプリを使用しない場合</mark>",
+    "items": [
+      {
+        "id": "ai",
+        "text": "AIが全て実施 .......... $5",
+        "extra": "+ 時間が浮く"
+      },
+      {
+        "id": "yourself",
+        "text": "自分でステージング ................. $500",
+        "extra": "+ ストレス"
+      },
+      {
+        "id": "designer1",
+        "text": "デザイナーを雇う ................... $1500"
+      },
+      {
+        "id": "designerWait",
+        "text": "デザイナーを雇い、待たされる ........ $2500"
+      },
+      {
+        "id": "designerDisagree",
+        "text": "デザイナーを雇い、意見が合わない ..... $4000"
+      },
+      {
+        "id": "redesign",
+        "text": "フィードバック後に再デザイン ..... $6000",
+        "extra": "+ 涙"
+      },
+      {
+        "id": "again",
+        "text": "再度すべてやり直し ..... $8000",
+        "extra": "+ 涙"
+      }
+    ]
+  },
+  "perfectFor": {
+    "title": "こんな方に最適",
+    "items": [
+      {
+        "id": "privateSellers",
+        "title": "個人で物件を売却するホームオーナー",
+        "desc1": "<mark>オンライン掲載用の写真を簡単に改善</mark> — 仲介なし、ステージング費用なし。",
+        "desc2": "写真をアップロードして希望を入力すれば、AIが瞬時に片付け、照明改善、スタイル変更を行います。"
+      },
+      {
+        "id": "marketplaces",
+        "title": "不動産マーケットプレイスで売るDIYユーザー",
+        "desc1": "無数のリスティングの中で物件を際立たせます。",
+        "desc2": "AIステージングで<mark>普通の写真をプロ品質の魅力的な画像</mark>に変換します。"
+      },
+      {
+        "id": "rentals",
+        "title": "短期レンタル（Airbnb・Booking・Hotelsなど）ホスト",
+        "desc1": "美しい写真で予約率アップ。",
+        "desc2": "<mark>AIステージングで片付け・照明改善・スタイル演出</mark>を行い、魅力的で暖かみのある空間を演出します。"
+      },
+      {
+        "id": "movingFamilies",
+        "title": "引っ越し準備中の家族",
+        "desc1": "移動前に家の魅力を最大限に表現。",
+        "desc2": "部屋が空でも荷物だらけでも、<mark>AIが家具を配置し直し</mark>、購入希望者が暮らしを想像しやすくなります。"
+      },
+      {
+        "id": "afterRenovation",
+        "title": "リノベ後のホームオーナー",
+        "desc1": "リノベ成果を最大限にアピール。",
+        "desc2": "AIで<mark>スカンジナビア、モダン、ミニマルなどのスタイルを再現</mark>し、より魅力的な写真に。"
+      }
+    ]
+  },
+  "styles": {
+    "title": "スタイルを選ぶ",
+    "subtitle": "モダンから居心地の良い空間まで、物件に合うスタイルを作成できます。",
+    "note": "写真（横4枚）は Nicole Franzen – 彼女は最高！",
+    "items": [
+      { "id": "modern", "name": "モダン" },
+      { "id": "scandinavian", "name": "スカンジナビア" },
+      { "id": "minimal", "name": "ミニマル" },
+      { "id": "cozy", "name": "コージー" }
+    ]
+  },
+  "transformation": {
+    "title": "AI変換を見てみる",
+    "subtitle": "ひとつのプロンプトで、どんな物件も美しく"
+  },
+  "cta": {
+    "title": "リスティングを変換する準備はできましたか？",
+    "subtitle": "まずは無料で2回試せます。クレジットカード不要。"
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "hero": {
+    "badge": "AI 홈 스테이징",
+    "title": "부동산 사진 변환하기",
+    "subtitle": "사진을 업로드하고 프롬프트를 입력하면 몇 초 만에 시장용 이미지를 생성합니다."
+  },
+  "status": {
+    "credits": "남은 크레딧: {{current}} / {{max}}"
+  },
+  "upload": {
+    "title": "사진",
+    "success": "업로드 완료!",
+    "changePhoto": "사진 변경",
+    "customLabel": "사용자 지침 추가 (텍스트 프롬프트)",
+    "customPlaceholder": "명확하고 현실적인 디자인 요청을 작성하세요. 레이아웃, 조명, 재질, 가구 등에 집중하세요.\n\n예: 잡동사니 정리, 따뜻한 조명, 가구 교체...",
+    "suggestionsLabel": "프롬프트 빌더 제안(편집 가능)",
+    "generateReady": "생성 준비 완료",
+    "generateDefault": "AI로 생성"
+  },
+  "builder": {
+    "title": "프롬프트 빌더",
+    "tabs": {
+      "interior": "실내",
+      "exterior": "실외"
+    },
+    "fields": {
+      "roomType": "방 유형",
+      "style": "스타일",
+      "colorPalette": "색상 팔레트",
+      "furnitureDensity": "가구 밀도",
+      "lighting": "조명",
+      "atmosphere": "분위기",
+      "condition": "상태",
+      "cameraAngle": "카메라 앵글",
+      "details": "세부 요소",
+      "houseType": "주택 유형",
+      "facade": "외관",
+      "environment": "환경",
+      "season": "계절"
+    },
+    "helper": "프롬프트 빌더가 추천을 제공합니다. 왼쪽 항목은 자유롭게 수정할 수 있습니다.",
+    "presets": {
+      "title": "원클릭 변환",
+      "description": "아래 템플릿 중 하나를 선택해 전문가 수준의 스타일을 즉시 적용하세요.",
+      "groups": {
+        "interior": {
+          "title": "실내 개선",
+          "buttons": {
+            "staging": { "short": "🛋️ 스테이징", "long": "🛋️ 가상 스테이징" },
+            "furnish": { "short": "🪑 가구 추가", "long": "🪑 빈 방 가구 배치" },
+            "styleSwitch": { "short": "🎭 스타일 변경", "long": "🎭 스타일 전환" },
+            "declutter": { "short": "🧼 정리", "long": "🧼 잡동사니 제거" },
+            "kitchen": { "short": "🍽️ 주방", "long": "🍽️ 주방 업그레이드" },
+            "bathroom": { "short": "🛁 욕실", "long": "🛁 욕실 리프레시" }
+          }
+        },
+        "renovation": {
+          "title": "리노베이션 기본",
+          "buttons": {
+            "renovation": { "short": "🛠️ 리프레시", "long": "🛠️ 리노베이션 개선" },
+            "repaint": { "short": "🎨 재도색", "long": "🎨 벽 색상 변경" },
+            "floor": { "short": "🪵 바닥", "long": "🪵 바닥 & 표면 개선" },
+            "fix": { "short": "🔧 보수", "long": "🔧 손상 보수" }
+          }
+        },
+        "lighting": {
+          "title": "조명 & 사진",
+          "buttons": {
+            "lighting": { "short": "💡 조명", "long": "💡 조명 강화" }
+          }
+        },
+        "exterior": {
+          "title": "실외 업그레이드",
+          "buttons": {
+            "curb": { "short": "🌿 외관", "long": "🌿 외관 향상" },
+            "backyard": { "short": "🌻 마당", "long": "🌻 뒷마당 꾸미기" }
+          }
+        }
+      }
+    }
+  },
+  "options": {
+    "interior": {
+      "rooms": [
+        { "value": "Living room", "label": "거실" },
+        { "value": "Bedroom", "label": "침실" },
+        { "value": "Kitchen", "label": "주방" },
+        { "value": "Bathroom", "label": "욕실" },
+        { "value": "Dining room", "label": "식당" },
+        { "value": "Home office", "label": "홈 오피스" }
+      ],
+      "styles": [
+        { "value": "Modern", "label": "모던" },
+        { "value": "Minimalist", "label": "미니멀" },
+        { "value": "Scandinavian", "label": "스칸디나비아" },
+        { "value": "Contemporary", "label": "컨템포러리" },
+        { "value": "Loft", "label": "로프트" },
+        { "value": "Industrial", "label": "인더스트리얼" },
+        { "value": "Classic", "label": "클래식" }
+      ],
+      "colors": [
+        { "value": "Neutral", "label": "뉴트럴" },
+        { "value": "Light", "label": "라이트" },
+        { "value": "Warm", "label": "웜" },
+        { "value": "Cool", "label": "쿨" }
+      ],
+      "furniture": [
+        { "value": "Minimal staging", "label": "최소 스테이징" },
+        { "value": "Balanced staging", "label": "균형 잡힌 스테이징" },
+        { "value": "Rich decorative staging", "label": "풍부한 장식 스테이징" }
+      ],
+      "lighting": [
+        { "value": "Natural", "label": "자연광" },
+        { "value": "Soft ambient", "label": "부드러운 조명" },
+        { "value": "Bright", "label": "밝은 조명" }
+      ],
+      "details": [
+        { "value": "Green plants", "label": "식물" },
+        { "value": "Fireplace", "label": "벽난로" },
+        { "value": "Parquet", "label": "파케이 바닥" },
+        { "value": "Wall art", "label": "벽 장식" },
+        { "value": "Soft textiles", "label": "부드러운 패브릭" }
+      ]
+    },
+    "shared": {
+      "atmosphere": [
+        { "value": "Cozy atmosphere", "label": "아늑한 분위기" },
+        { "value": "Luxury feel", "label": "고급스러운 느낌" },
+        { "value": "Bright and fresh mood", "label": "밝고 신선한 분위기" },
+        { "value": "Sleek and modern vibe", "label": "세련된 모던 분위기" }
+      ],
+      "condition": [
+        { "value": "Market-ready upgrade", "label": "시장용 업그레이드" },
+        { "value": "Light refresh", "label": "가벼운 리프레시" },
+        { "value": "Freshly renovated appearance", "label": "새로 리노베이션한 느낌" }
+      ],
+      "camera": [
+        { "value": "Eye-level angle", "label": "아이레벨 앵글" },
+        { "value": "Corner wide-angle view", "label": "코너 와이드뷰" },
+        { "value": "Room-wide photography", "label": "전체 공간 촬영" }
+      ]
+    },
+    "exterior": {
+      "houses": [
+        { "value": "Modern house", "label": "모던 하우스" },
+        { "value": "Cottage", "label": "코티지" },
+        { "value": "Townhouse", "label": "타운하우스" }
+      ],
+      "facades": [
+        { "value": "Wood & plaster", "label": "목재 & 벽면" },
+        { "value": "Brick", "label": "벽돌" },
+        { "value": "Concrete", "label": "콘크리트" }
+      ],
+      "environments": [
+        { "value": "Forest", "label": "숲" },
+        { "value": "City", "label": "도시" },
+        { "value": "Seaside", "label": "해안" }
+      ],
+      "seasons": [
+        { "value": "Summer", "label": "여름" },
+        { "value": "Autumn", "label": "가을" },
+        { "value": "Golden hour", "label": "골든 아워" },
+        { "value": "Winter", "label": "겨울" },
+        { "value": "Spring", "label": "봄" }
+      ],
+      "details": [
+        { "value": "Panoramic windows", "label": "파노라마 창문" },
+        { "value": "Warm exterior lights", "label": "따뜻한 외부 조명" },
+        { "value": "Landscaping upgrade", "label": "조경 업그레이드" },
+        { "value": "Swimming pool", "label": "수영장" },
+        { "value": "Balcony decor", "label": "발코니 데코" },
+        { "value": "Outdoor furniture", "label": "야외 가구" }
+      ]
+    }
+  },
+  "presetsMap": {
+    "staging": "staging",
+    "furnish": "furnishEmpty",
+    "styleSwitch": "styleSwitch",
+    "declutter": "declutter",
+    "kitchen": "kitchen",
+    "bathroom": "bathroom",
+    "renovation": "renovation",
+    "repaint": "repaint",
+    "floor": "floorRefresh",
+    "fix": "fixFinish",
+    "lighting": "lighting",
+    "curb": "curb",
+    "backyard": "backyard"
+  },
+  "form": {
+    "notSpecified": "미지정"
+  },
+  "errors": {
+    "signInUpload": "이미지를 업로드하려면 로그인해야 합니다.",
+    "unexpectedUpload": "이미지 업로드 중 오류가 발생했습니다.",
+    "needImage": "변환을 시작하려면 이미지를 업로드하세요.",
+    "needPrompt": "지침 또는 프롬프트를 입력하세요.",
+    "signInGenerate": "생성 및 저장하려면 로그인해야 합니다.",
+    "missingOriginal": "원본 이미지가 없습니다. 다시 업로드해주세요."
+  },
+  "toasts": {
+    "failedTitle": "⚠️ 생성 실패",
+    "failedDescription": "이미지 생성 중 오류가 발생했습니다. 프롬프트를 조정하여 다시 시도하세요.",
+    "errorTitle": "❌ 생성 오류",
+    "errorDescription": "이미지 처리 중 문제가 발생했습니다. 잠시 후 다시 시도하세요."
+  },
+  "processing": {
+    "title": "변환 중…",
+    "subtitle": "AI가 부동산 이미지를 변환하고 있습니다",
+    "steps": [
+      "이미지 분석 중…",
+      "스타일 적용 중…",
+      "디테일 강화 중…"
+    ],
+    "duration": "보통 10–20초 정도 소요됩니다",
+    "visualTitle": "색 조화 시각화",
+    "visualSubtitle": "처리 중 생성되는 아트",
+    "visualAction": "클릭하여 색상 재생성"
+  },
+  "result": {
+    "title": "변환 완료!",
+    "subtitle": "전문적으로 스테이징된 이미지가 준비되었습니다",
+    "download": "이미지 다운로드",
+    "again": "다른 사진 변환"
+  },
+  "uploadZone": {
+    "title": "부동산 사진 업로드",
+    "description": "실내·실외 사진을 드래그 앤 드롭하거나 클릭하여 업로드하세요.",
+    "tip": "💡 밝은 조명과 정돈된 사진이 가장 좋은 결과를 제공합니다.",
+    "button": "사진 선택",
+    "supported": "지원 형식: JPG, PNG, WEBP (최대 10MB)"
+  },
+  "subscription": {
+    "badge": "플랜 업그레이드",
+    "title": "크레딧이 부족합니다 — 계속하려면 플랜을 선택하세요",
+    "description": "프리미엄 변환, 템플릿, HD 출력 사용 가능.",
+    "toggle": {
+      "monthly": "월간",
+      "yearly": "연간"
+    },
+    "popular": "인기",
+    "close": "닫기",
+    "action": "지금 업그레이드 →",
+    "later": "나중에",
+    "secure": "🔒 안전한 결제 • 언제든지 취소 가능"
+  }
+}

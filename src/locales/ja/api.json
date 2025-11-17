@@ -1,0 +1,65 @@
+{
+  "hero": {
+    "badge": "// API",
+    "title": "APIであなたのプラットフォームを拡張",
+    "description": "AIによるホームステージングを不動産プラットフォーム、マーケットプレイス、エージェンシーのワークフローに直接統合し、大量の画像をスケール処理できます。"
+  },
+  "features": [
+    {
+      "id": "lightning",
+      "icon": "zap",
+      "title": "超高速",
+      "description": "最適化されたAIインフラにより、毎時数千枚の物件写真を処理できます。大規模ポートフォリオでも同日納品を実現します。"
+    },
+    {
+      "id": "security",
+      "icon": "shield",
+      "title": "エンタープライズ級セキュリティ",
+      "description": "SOC 2準拠とエンドツーエンド暗号化により、物件データと顧客情報を完全に保護します。"
+    },
+    {
+      "id": "scaling",
+      "icon": "cpu",
+      "title": "自動スケーリング",
+      "description": "1日10枚から10,000枚以上まで、一貫した速度で大量処理をシームレスに実行します。"
+    }
+  ],
+  "code": {
+    "filename": "api_example.js",
+    "snippet": "// シンプルなAPI統合例\ntry {\n  const response = await fetch('https://api.interiordesignbot.com/v1/transform', {\n    method: 'POST',\n    headers: {\n      'Authorization': 'Bearer YOUR_API_KEY', // 実際のキーに置き換えてください\n      'Content-Type': 'application/json'\n    },\n    body: JSON.stringify({\n      image_url: 'https://...', // 実際のURL\n      style: 'modern',\n      prompt: 'ラグジュアリーアパートメント風に変換'\n    })\n  });\n\n  if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);\n\n  const result = await response.json();\n\n  if (result.staged_image_url) {\n    console.log('変換後の画像:', result.staged_image_url);\n  } else {\n    console.error('staged_image_url がレスポンスにありません:', result);\n  }\n\n} catch (error) {\n  console.error('APIリクエスト失敗:', error);\n}"
+  },
+  "useCases": {
+    "title": "企業向けに最適",
+    "items": [
+      {
+        "id": "platforms",
+        "title": "不動産プラットフォーム",
+        "subtitle": "アップロード写真の自動改善を実現",
+        "description": "品質の低い物件写真に悩んでいませんか？AIステージングを統合することで、ユーザーがアップロードする写真を瞬時に向上。市場価値を高め、エンゲージメントを増加させます。"
+      },
+      {
+        "id": "agencies",
+        "title": "不動産エージェンシー",
+        "subtitle": "エージェントのワークフローを強化",
+        "description": "高額な物理ステージングの代わりに、数秒で写真を美しく変えるデジタルステージングを提供。成約率アップに貢献します。"
+      },
+      {
+        "id": "marketplaces",
+        "title": "不動産マーケットプレイス",
+        "subtitle": "売り手向けの付加価値サービスを提供",
+        "description": "AIステージングをアップセルサービスとして提供し、新たな収益源を確立。美しい物件は売れやすく、プラットフォームの信頼性も向上します。"
+      },
+      {
+        "id": "studios",
+        "title": "写真スタジオ",
+        "subtitle": "撮影パッケージにAIステージングを追加",
+        "description": "AIバーチャルステージングを追加することで、より高い単価のパッケージを提供できます。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "今すぐ始めませんか？",
+    "description": "大量利用やカスタムAPIアクセスをご希望ですか？",
+    "button": "カスタム料金を相談"
+  }
+}

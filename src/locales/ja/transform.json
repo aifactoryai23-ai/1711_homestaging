@@ -1,0 +1,248 @@
+{
+  "hero": {
+    "badge": "AIホームステージング",
+    "title": "物件写真を美しく変換",
+    "subtitle": "写真をアップロードしてプロンプトを追加すると、数秒で市場向け画像に変換されます。"
+  },
+  "status": {
+    "credits": "残りクレジット: {{current}} / {{max}}"
+  },
+  "upload": {
+    "title": "あなたの写真",
+    "success": "アップロード成功！",
+    "changePhoto": "写真を変更",
+    "customLabel": "カスタム指示（テキストプロンプト）",
+    "customPlaceholder": "明確で現実的なデザインリクエストを書いてください。レイアウト、照明、素材、家具に焦点を当ててください。\n\n例: 片付け、暖かい照明、家具の入れ替え…",
+    "suggestionsLabel": "プロンプトビルダー提案（編集可）",
+    "generateReady": "生成の準備完了",
+    "generateDefault": "AIで生成"
+  },
+  "builder": {
+    "title": "プロンプトビルダー",
+    "tabs": {
+      "interior": "インテリア",
+      "exterior": "エクステリア"
+    },
+    "fields": {
+      "roomType": "部屋タイプ",
+      "style": "スタイル",
+      "colorPalette": "カラーパレット",
+      "furnitureDensity": "家具の量",
+      "lighting": "照明",
+      "atmosphere": "雰囲気",
+      "condition": "状態",
+      "cameraAngle": "カメラアングル",
+      "details": "ディテール",
+      "houseType": "家の種類",
+      "facade": "外観",
+      "environment": "環境",
+      "season": "季節"
+    },
+    "helper": "プロンプトビルダーはステージングの詳細を提案します。左側はすべて編集できます。",
+    "presets": {
+      "title": "ワンクリック変換",
+      "description": "テンプレートを選択して、写真を即座にプロ仕様に変換します。",
+      "groups": {
+        "interior": {
+          "title": "インテリア改善",
+          "buttons": {
+            "staging": { "short": "🛋️ ステージング", "long": "🛋️ バーチャルステージング" },
+            "furnish": { "short": "🪑 家具追加", "long": "🪑 空室に家具を追加" },
+            "styleSwitch": { "short": "🎭 スタイル変更", "long": "🎭 スタイルスイッチ" },
+            "declutter": { "short": "🧼 片付け", "long": "🧼 片付け・整理" },
+            "kitchen": { "short": "🍽️ キッチン", "long": "🍽️ キッチン改善" },
+            "bathroom": { "short": "🛁 バス", "long": "🛁 バスルーム刷新" }
+          }
+        },
+        "renovation": {
+          "title": "リノベーション基礎",
+          "buttons": {
+            "renovation": { "short": "🛠️ 刷新", "long": "🛠️ リフレッシュ" },
+            "repaint": { "short": "🎨 塗装", "long": "🎨 再塗装スタイル" },
+            "floor": { "short": "🪵 床", "long": "🪵 床・表面改善" },
+            "fix": { "short": "🔧 修繕", "long": "🔧 修理＆仕上げ" }
+          }
+        },
+        "lighting": {
+          "title": "照明 & 写真",
+          "buttons": {
+            "lighting": { "short": "💡 照明", "long": "💡 照明改善" }
+          }
+        },
+        "exterior": {
+          "title": "外観アップグレード",
+          "buttons": {
+            "curb": { "short": "🌿 外観", "long": "🌿 カーブアピール" },
+            "backyard": { "short": "🌻 庭", "long": "🌻 バックヤードステージング" }
+          }
+        }
+      }
+    }
+  },
+  "options": {
+    "interior": {
+      "rooms": [
+        { "value": "Living room", "label": "リビングルーム" },
+        { "value": "Bedroom", "label": "ベッドルーム" },
+        { "value": "Kitchen", "label": "キッチン" },
+        { "value": "Bathroom", "label": "バスルーム" },
+        { "value": "Dining room", "label": "ダイニング" },
+        { "value": "Home office", "label": "ホームオフィス" }
+      ],
+      "styles": [
+        { "value": "Modern", "label": "モダン" },
+        { "value": "Minimalist", "label": "ミニマリスト" },
+        { "value": "Scandinavian", "label": "スカンジナビア" },
+        { "value": "Contemporary", "label": "コンテンポラリー" },
+        { "value": "Loft", "label": "ロフト" },
+        { "value": "Industrial", "label": "インダストリアル" },
+        { "value": "Classic", "label": "クラシック" }
+      ],
+      "colors": [
+        { "value": "Neutral", "label": "ニュートラル" },
+        { "value": "Light", "label": "ライト" },
+        { "value": "Warm", "label": "ウォーム" },
+        { "value": "Cool", "label": "クール" }
+      ],
+      "furniture": [
+        { "value": "Minimal staging", "label": "最小限ステージング" },
+        { "value": "Balanced staging", "label": "バランスの取れたステージング" },
+        { "value": "Rich decorative staging", "label": "装飾豊富なステージング" }
+      ],
+      "lighting": [
+        { "value": "Natural", "label": "自然光" },
+        { "value": "Soft ambient", "label": "ソフト照明" },
+        { "value": "Bright", "label": "明るい" }
+      ],
+      "details": [
+        { "value": "Green plants", "label": "観葉植物" },
+        { "value": "Fireplace", "label": "暖炉" },
+        { "value": "Parquet", "label": "寄木張り" },
+        { "value": "Wall art", "label": "ウォールアート" },
+        { "value": "Soft textiles", "label": "柔らかいテキスタイル" }
+      ]
+    },
+    "shared": {
+      "atmosphere": [
+        { "value": "Cozy atmosphere", "label": "居心地の良い雰囲気" },
+        { "value": "Luxury feel", "label": "高級感" },
+        { "value": "Bright and fresh mood", "label": "明るく爽やか" },
+        { "value": "Sleek and modern vibe", "label": "洗練されたモダンな雰囲気" }
+      ],
+      "condition": [
+        { "value": "Market-ready upgrade", "label": "市場向けアップグレード" },
+        { "value": "Light refresh", "label": "軽いリフレッシュ" },
+        { "value": "Freshly renovated appearance", "label": "新規リノベ風" }
+      ],
+      "camera": [
+        { "value": "Eye-level angle", "label": "目線アングル" },
+        { "value": "Corner wide-angle view", "label": "コーナー広角" },
+        { "value": "Room-wide photography", "label": "部屋全体ショット" }
+      ]
+    },
+    "exterior": {
+      "houses": [
+        { "value": "Modern house", "label": "モダン住宅" },
+        { "value": "Cottage", "label": "コテージ" },
+        { "value": "Townhouse", "label": "タウンハウス" }
+      ],
+      "facades": [
+        { "value": "Wood & plaster", "label": "木材＆しっくい" },
+        { "value": "Brick", "label": "レンガ" },
+        { "value": "Concrete", "label": "コンクリート" }
+      ],
+      "environments": [
+        { "value": "Forest", "label": "森" },
+        { "value": "City", "label": "街" },
+        { "value": "Seaside", "label": "海辺" }
+      ],
+      "seasons": [
+        { "value": "Summer", "label": "夏" },
+        { "value": "Autumn", "label": "秋" },
+        { "value": "Golden hour", "label": "ゴールデンアワー" },
+        { "value": "Winter", "label": "冬" },
+        { "value": "Spring", "label": "春" }
+      ],
+      "details": [
+        { "value": "Panoramic windows", "label": "パノラマ窓" },
+        { "value": "Warm exterior lights", "label": "暖かい外照明" },
+        { "value": "Landscaping upgrade", "label": "造園アップグレード" },
+        { "value": "Swimming pool", "label": "プール" },
+        { "value": "Balcony decor", "label": "バルコニーデコ" },
+        { "value": "Outdoor furniture", "label": "屋外家具" }
+      ]
+    }
+  },
+  "presetsMap": {
+    "staging": "staging",
+    "furnish": "furnishEmpty",
+    "styleSwitch": "styleSwitch",
+    "declutter": "declutter",
+    "kitchen": "kitchen",
+    "bathroom": "bathroom",
+    "renovation": "renovation",
+    "repaint": "repaint",
+    "floor": "floorRefresh",
+    "fix": "fixFinish",
+    "lighting": "lighting",
+    "curb": "curb",
+    "backyard": "backyard"
+  },
+  "form": {
+    "notSpecified": "未指定"
+  },
+  "errors": {
+    "signInUpload": "写真をアップロードするにはサインインしてください。",
+    "unexpectedUpload": "写真アップロード中に予期せぬエラーが発生しました。",
+    "needImage": "変換を開始する前に写真をアップロードしてください。",
+    "needPrompt": "指示またはプロンプトを追加してください。",
+    "signInGenerate": "生成して保存するにはサインインが必要です。",
+    "missingOriginal": "元画像がありません。再度アップロードしてください。"
+  },
+  "toasts": {
+    "failedTitle": "⚠️ 生成に失敗しました",
+    "failedDescription": "画像生成中に問題が発生しました。プロンプトを調整して再試行してください。",
+    "errorTitle": "❌ 生成エラー",
+    "errorDescription": "画像処理中に問題が発生しました。後でもう一度お試しください。"
+  },
+  "processing": {
+    "title": "変換中…",
+    "subtitle": "AIが物件写真を変換しています",
+    "steps": [
+      "画像を分析中…",
+      "スタイル適用中…",
+      "ディテール調整中…"
+    ],
+    "duration": "通常 10〜20 秒かかります",
+    "visualTitle": "カラー調和ビジュアル",
+    "visualSubtitle": "処理中のジェネレーティブアート",
+    "visualAction": "クリックして色を再生成"
+  },
+  "result": {
+    "title": "変換完了！",
+    "subtitle": "プロ品質のステージング画像が完成しました",
+    "download": "画像をダウンロード",
+    "again": "別の写真を変換"
+  },
+  "uploadZone": {
+    "title": "物件写真をアップロード",
+    "description": "インテリア・エクステリアの写真をドラッグ＆ドロップ、またはクリックで選択。",
+    "tip": "💡 良い照明と最低限の散らかりで最高の結果が得られます。",
+    "button": "写真を選択",
+    "supported": "対応形式: JPG, PNG, WEBP (最大 10MB)"
+  },
+  "subscription": {
+    "badge": "プランをアップグレード",
+    "title": "クレジットがありません — 続行するにはプランを選択してください",
+    "description": "プレミアム変換、テンプレート、HD書き出しを解放。",
+    "toggle": {
+      "monthly": "月額",
+      "yearly": "年額"
+    },
+    "popular": "最も人気",
+    "close": "閉じる",
+    "action": "今すぐアップグレード →",
+    "later": "後で",
+    "secure": "🔒 安全な支払い • いつでもキャンセル可能"
+  }
+}

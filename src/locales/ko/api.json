@@ -1,0 +1,65 @@
+{
+  "hero": {
+    "badge": "// API",
+    "title": "API로 플랫폼을 확장하세요",
+    "description": "AI 기반 홈 스테이징을 부동산 플랫폼, 마켓플레이스 또는 에이전시 워크플로우에 직접 통합하여 무제한 이미지를 대량 처리하세요."
+  },
+  "features": [
+    {
+      "id": "lightning",
+      "icon": "zap",
+      "title": "초고속 처리",
+      "description": "최적화된 AI 인프라를 통해 시간당 수천 장의 부동산 사진을 처리하며, 대규모 포트폴리오도 당일 납품합니다."
+    },
+    {
+      "id": "security",
+      "icon": "shield",
+      "title": "엔터프라이즈 보안",
+      "description": "SOC 2 인증과 종단 간 암호화를 통해 귀하의 데이터와 고객 정보를 안전하게 보호합니다."
+    },
+    {
+      "id": "scaling",
+      "icon": "cpu",
+      "title": "자동 확장",
+      "description": "10장에서 10,000장 이상의 사진까지 성능 저하 없이 안정적인 속도로 대량 처리합니다."
+    }
+  ],
+  "code": {
+    "filename": "api_example.js",
+    "snippet": "// 간단한 API 연동 예시\ntry {\n  const response = await fetch('https://api.interiordesignbot.com/v1/transform', {\n    method: 'POST',\n    headers: {\n      'Authorization': 'Bearer YOUR_API_KEY', // 실제 키로 변경\n      'Content-Type': 'application/json'\n    },\n    body: JSON.stringify({\n      image_url: 'https://...', // 실제 이미지 URL\n      style: 'modern',\n      prompt: '럭셔리 아파트 스타일로 변환'\n    })\n  });\n\n  if (!response.ok) throw new Error(`HTTP error: ${response.status}`);\n\n  const result = await response.json();\n\n  if (result.staged_image_url) {\n    console.log('변환된 이미지:', result.staged_image_url);\n  } else {\n    console.error('staged_image_url 없음:', result);\n  }\n\n} catch (error) {\n  console.error('API 요청 실패:', error);\n}"
+  },
+  "useCases": {
+    "title": "기업에 최적화된 솔루션",
+    "items": [
+      {
+        "id": "platforms",
+        "title": "부동산 플랫폼",
+        "subtitle": "업로드 이미지를 자동 보정",
+        "description": "일관성 없는 낮은 품질의 사진 때문에 플랫폼 신뢰도가 떨어지지 않나요? AI 스테이징을 연동해 업로드되는 모든 사진을 자동으로 향상시키세요."
+      },
+      {
+        "id": "agencies",
+        "title": "부동산 에이전시",
+        "subtitle": "에이전트의 워크플로우 강화",
+        "description": "비싼 홈 스테이징 없이도 클라이언트를 더 빠르게 설득할 수 있도록 강력한 디지털 스테이징 도구를 제공합니다."
+      },
+      {
+        "id": "marketplaces",
+        "title": "부동산 마켓플레이스",
+        "subtitle": "프리미엄 서비스 제공",
+        "description": "AI 스테이징을 판매자들에게 부가 서비스로 제공해 새로운 수익원을 창출하세요."
+      },
+      {
+        "id": "studios",
+        "title": "사진 스튜디오",
+        "subtitle": "촬영 패키지에 AI 스테이징 추가",
+        "description": "고객에게 촬영+스테이징 원스톱 서비스를 제공하여 객단가를 높일 수 있습니다."
+      }
+    ]
+  },
+  "cta": {
+    "title": "지금 시작할 준비가 되셨나요?",
+    "description": "대량 처리 또는 맞춤 API가 필요하신가요?",
+    "button": "맞춤 견적 문의"
+  }
+}

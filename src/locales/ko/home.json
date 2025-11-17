@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "title": "AI 홈 스테이징 앱 | 더 빠르게 집을 판매/임대",
+    "description": "개인 판매자, Airbnb 호스트 및 홈오너를 위한 AI 홈 스테이징 도구. 사진을 즉시 개선하고 매력적인 리스팅 이미지를 만드세요.",
+    "keywords": "AI 스테이징, 가상 스테이징, 부동산 사진, 인공지능 인테리어",
+    "ogTitle": "AI 홈 스테이징 앱 | 빠른 판매",
+    "ogDescription": "AI로 사진을 변환하고 조명 개선, 정리, 스타일링을 몇 초 만에 완료하세요.",
+    "ogImage": "https://interiordesignbot.com/interiordesignbot_logo.png"
+  },
+  "hero": {
+    "titlePrefix": "집을 바꾸고,",
+    "titleHighlight": "더 빠르게 판매하세요",
+    "description": "실내·실외 사진을 업로드하면 AI가 전문가 수준의 스테이징 이미지로 변환합니다.",
+    "freeTransformations": "무료 변환 2회",
+    "noCardRequired": "카드 정보 불필요"
+  },
+  "benefits": {
+    "title": "AI 홈 스테이징 — 클릭 한 번으로 완성",
+    "subtitle": "<mark>비용 없이 전문가 수준의 스테이징</mark>",
+    "items": [
+      {
+        "id": "instantGlow",
+        "icon": "zap",
+        "title": "즉시 개선",
+        "description": "어질러진 방도 몇 초 만에 잡지 수준의 사진으로."
+      },
+      {
+        "id": "magicWand",
+        "icon": "wand",
+        "title": "AI 매직",
+        "description": "정리 · 조명 개선 · 재디자인을 AI가 자동 처리"
+      },
+      {
+        "id": "sellFaster",
+        "icon": "spotlight",
+        "title": "판매 속도 향상",
+        "description": "스테이징된 집은 40% 빨리 판매됩니다."
+      }
+    ]
+  },
+  "priceList": {
+    "title": "가격표",
+    "subtitle": "<mark>앱 미사용 시 비교</mark>",
+    "items": [
+      { "id": "ai", "text": "AI가 모든 작업 .......... $5", "extra": "+ 시간 절약" },
+      { "id": "yourself", "text": "직접 스테이징 ................. $500", "extra": "+ 스트레스" },
+      { "id": "designer1", "text": "디자이너 고용 ................... $1500" },
+      { "id": "designerWait", "text": "디자이너 · 대기 시간 ........ $2500" },
+      { "id": "designerDisagree", "text": "디자이너 · 의견 충돌 ..... $4000" },
+      { "id": "redesign", "text": "수정 후 재디자인 ..... $6000", "extra": "+ 눈물" },
+      { "id": "again", "text": "모든 과정 반복 ..... $8000", "extra": "+ 눈물" }
+    ]
+  },
+  "perfectFor": {
+    "title": "이런 분께 추천합니다",
+    "items": [
+      {
+        "id": "privateSellers",
+        "title": "개인 집 판매자",
+        "desc1": "<mark>중개인 없이도 전문 사진 제작</mark>",
+        "desc2": "사진을 업로드하고 원하는 스타일을 입력하면 AI가 즉시 스테이징합니다."
+      },
+      {
+        "id": "marketplaces",
+        "title": "부동산 마켓 DIY 판매자",
+        "desc1": "수많은 리스팅 중 내 집을 돋보이게 하기",
+        "desc2": "AI 스테이징으로 <mark>평범한 사진을 고품질 이미지로</mark> 변환"
+      },
+      {
+        "id": "rentals",
+        "title": "Airbnb, 호텔, 단기임대 호스트",
+        "desc1": "더 많은 예약을 유도하는 사진",
+        "desc2": "AI가 <mark>정리·조명·스타일링</mark>을 자동 적용"
+      },
+      {
+        "id": "movingFamilies",
+        "title": "이사 준비 중인 가족",
+        "desc1": "이사 전 공간의 잠재력을 보여주세요",
+        "desc2": "빈 방이나 박스가 있는 방도 AI가 가상 가구 배치를 수행"
+      },
+      {
+        "id": "afterRenovation",
+        "title": "리노베이션 후 집주인",
+        "desc1": "리노베이션 효과 극대화",
+        "desc2": "스칸디나비아, 모던 등 <mark>여러 스타일을 시각화</mark>"
+      }
+    ]
+  },
+  "styles": {
+    "title": "스타일 선택",
+    "subtitle": "모던부터 코지까지 — 원하는 분위기를 연출하세요.",
+    "note": "사진 촬영: Nicole Franzen",
+    "items": [
+      { "id": "modern", "name": "모던" },
+      { "id": "scandinavian", "name": "스칸디나비아" },
+      { "id": "minimal", "name": "미니멀" },
+      { "id": "cozy", "name": "코지" }
+    ]
+  },
+  "transformation": {
+    "title": "AI 변환 예시",
+    "subtitle": "하나의 프롬프트로 끝없는 결과"
+  },
+  "cta": {
+    "title": "지금 변환을 시작해보세요",
+    "subtitle": "무료 2회 제공 · 카드 필요 없음"
+  }
+}
